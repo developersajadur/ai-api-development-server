@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Large AI model weights & caches
+AI_Models/
+models/*
+!models/.gitkeep
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.gguf
+*.h5
+*.ckpt
+
+# IDE and OS
+.DS_Store
+.idea/
+.vscode/
